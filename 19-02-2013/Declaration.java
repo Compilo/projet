@@ -1,6 +1,7 @@
 public class Declaration() {
 	
 	private String nomIdent;
+	private int type;
 	
 	public void affecteNomIdent(Sring s) {
 		nomIdent = s;
@@ -8,7 +9,8 @@ public class Declaration() {
 
 	
 	public void ajoutConstanteVar(String s) {
-		Yaka.tabIdent(
+		Ident i = Yaka.tabIdent.chercheIdent(s);
+		Yaka.tabIdent.rangeIdent(nomIdent,i);
 	}
 	
 	public void ajoutConstanteEnt(Integer i ) {

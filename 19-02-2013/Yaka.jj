@@ -189,8 +189,8 @@ void declVar() : {}
 
 void type() :{}
 {
-   <ENTIER> 			
- | <BOOLEEN>	
+   <ENTIER>  {declaration.affecteType();}		
+ | <BOOLEEN> {declaration.ajoutVarBool();}
 }
 /*
  * Syntaxe des instructions.

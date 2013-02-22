@@ -1,3 +1,4 @@
+import java.util.HashMap;
 import java.util.Map;
 
 
@@ -7,7 +8,7 @@ public class TabIdent {
 	private int offsetCur;
 	
 	private TabIdent() {
-		table = new HashMap<Sting,Ident>;
+		table = new HashMap<String,Ident>();
 		nbVar = 0;
 		offsetCur = 0;
 	}

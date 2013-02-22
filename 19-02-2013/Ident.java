@@ -1,18 +1,20 @@
 public abstract class Ident {
 	
 	/*private String nom;*/
-	private int type;
-	private int valeur; //egalement utilise pour l'offset
-	
-	public Ident( int t, int val) {
-	
-		this.type = t;
-		this.valeur = val;
-	}
+	protected int genre;
+	protected int type;
+	protected int valeur; //egalement utilise pour l'offset
 	
 	public int getVal() {
 		return this.valeur;
 	}
 	
-	public abstract boolean isConst();
+	public int getType() {
+		return this.type;
+	}
+	
+	public int getGenre() {
+		return this.genre;
+	}
+	public abstract String toString();
 }

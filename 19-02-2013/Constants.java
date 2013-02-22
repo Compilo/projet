@@ -1,8 +1,11 @@
-public Constants {
+public class Constants {
 	
 	public static int ERREUR = 0;
 	public static int ENTIER = 1;
 	public static int BOOLEEN = 2;
+	
+	public static int VARIABLE = 0;
+	public static int CONSTANTE = 1;
 	
 	public static int VRAI = -1;
 	public static int FAUX = 0;

@@ -1,7 +1,7 @@
 public class TabIdent {
 	private Map<String,Ident> table;
-	private nbVar;
-	private offsetCur;
+	private int nbVar;
+	private int offsetCur;
 	
 	private TabIdent() {
 		table = new HashMap<Sting,Ident>;

@@ -2,7 +2,7 @@ public abstract class Ident {
 	
 	/*private String nom;*/
 	private int type;
-	private int valeur; //également utilisé pour l'offset
+	private int valeur; //egalement utilise pour l'offset
 	
 	public Ident( int t, int val) {
 	
@@ -10,7 +10,7 @@ public abstract class Ident {
 		this.valeur = val;
 	}
 	
-	public getVal() {
+	public int getVal() {
 		return this.valeur;
 	}
 	

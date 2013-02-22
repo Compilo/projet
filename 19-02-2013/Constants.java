@@ -1,4 +1,4 @@
-public class Constants {
+public Constants {
 	
 	public static int ERREUR = 0;
 	public static int ENTIER = 1;

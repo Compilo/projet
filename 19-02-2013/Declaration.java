@@ -1,9 +1,9 @@
-public class Declaration {
+public class Declaration() {
 	
 	private String nomIdent;
 	private int type;
 	
-	public void affecteNomIdent(String s) {
+	public void affecteNomIdent(Sring s) {
 		nomIdent = s;
 	}
 
